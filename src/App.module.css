@@ -1,0 +1,25 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+textarea:focus,
+input,
+input:focus {
+  outline: none;
+  border: none;
+  font-family: "Ubuntu Mono", monospace, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 1px black solid;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.list {
+  list-style: none;
+  padding: 0.2rem;
+}
